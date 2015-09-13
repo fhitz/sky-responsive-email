@@ -8,7 +8,11 @@
         	span.bold { font-weight: bold;}
 
         	@media only screen and (max-width: 660px) {
-        		table.top td { color:#000000 !important; }
+        		table.top td { 
+        			color:#000000 !important; 
+        			padding-top: 0px !important;
+        			padding-bottom: 10px !important;
+        		}
         		table.top { width: 320px !important; }
         		table.container { width: 320px !important;}
         		td.headline img { display: none; }
@@ -20,12 +24,40 @@
         		td.headertop { 
         			padding-left: 0px !important;
         			padding-right: 0px !important;
+        			padding-top: 5px !important;
         		}
-        		table.headertopleft { width: 80px !important; }
+
+        		td.headertop h4 {
+        			display: block !important;
+        			margin-top: 0px;
+        			margin-bottom: 3px;
+        			padding-left: 10px;
+
+        		}
+
+        		td.headertop h3 {
+        			display:block !important;
+        			color: #B2B1B1;
+        			margin-top: 0;
+        			margin-bottom: 10px;
+        			padding-left: 10px;
+        			font-size: 15px;
+
+        		}
+
+        		table.headertopleft {
+        		 	width: 80px !important;
+        		 	background: url(images/logo_mob.png) no-repeat 5px 8px;
+        		 	height: 60px;
+        		 	cursor: pointer;
+        		 }
+        		
+        		table.headertopleft img { display: none !important;}
+
         		table.headertopright { 
         			width:  200px !important; 
         			font-size: 10px !important;
-        			line-height: 12px;
+        			line-height: 13px;
         		}
 
         		.headertopright td br { display: block !important;}
@@ -60,11 +92,13 @@
 
         		td.hellocontent img { display: none; }
         		td.hellocontent {
-        			padding-left: 0px !important;
-        			padding-right: 0px !important;
+        			padding-left: 10px !important;
+        			padding-right: 10px !important;
         			font-size: 12px !important;
+        			line-height: 16px;
         		}
 
+        		td.hellocontent br.break { display: none;}
 
 
 
@@ -90,6 +124,7 @@
     				padding-left: 20px !important;
     				cursor: pointer;
     				font-size: 15px !important;
+    				margin-bottom: 15px;
         		}
         		table.box1 h4 { font-size: 15px !important;}
         		table.box2 img { display: none; }
@@ -100,6 +135,7 @@
         			padding-left: 20px !important;
         			cursor: pointer;
         			font-size: 15px !important;
+        			margin-bottom: 15px;
         		}
         		table.box2 h4 { font-size: 15px !important;}
         		table.box3 img { display: none; }
@@ -110,6 +146,7 @@
     				cursor: pointer;
     				padding-left: 20px !important;
     				font-size: 15px !important;
+    				margin-bottom: 15px;
         		}
         		table.box3 h4 { font-size: 15px !important;}
 
@@ -214,6 +251,19 @@
         			margin-bottom: 20px;
         		}
 
+        		table.social img { display: none !important;}
+        		table.social .facebook {
+        			background: url(images/facebook_mob.png) no-repeat 125px 0px;
+        			height: 29px;
+        			cursor: pointer;
+        		}
+        		table.social .twitter {
+        			background: url(images/twitter_mob.png) no-repeat 5px 0px;
+        			height: 29px;
+        			width: 144px;
+        			cursor: pointer;
+        		}
+
 
 
 
@@ -244,6 +294,8 @@
     				<table class="container" width="604" align="center" border="0" cellspacing="0" cellpadding="0">
     					<tr>
     						<td valign="top" class="headertop" bgcolor="#ffffff" style="border-left:2px solid #e6e3e1; border-right:2px solid #e6e3e1; padding:10px 20px 0px 20px;">
+    									<h4 class="snacks" style="display:none;">We'll bring the Box Sets. And the snacks...</h4>
+    									<h3 class="month" style="display:none;">XX Month 2012&nbsp; 08:30</h3>
     								 <table class="headertopleft" align="left" width="260" cellspacing="0" cellpadding="0" border="0">
 	                                    <tr>
 	                                        <td>
@@ -308,7 +360,7 @@
     							And with more of the latest shows than Netflix and Amazon Prime instant Video - you'll never have to
     							worry about avoiding spoilers.<br><br>
 
-    							Upgrade to Sky Box Sets with The Family Bundle today.<br><br><br>
+    							Upgrade to Sky Box Sets with The Family Bundle today.<br><br><br class="break">
 
     							<span style="color:#000000;">The Sky Team</span><br><br>
 
@@ -392,8 +444,10 @@
     								</table>
     								<table class="social" align="right" width="48" bgcolor="#dad6d3" border="0" cellpadding="0" cellspacing="0" style="padding:0;">
     									<tr>
-    										<td>
+    										<td class="facebook">
     											<a href="#" title="facebook"><img src="images/facebook.gif" alt="facebook" width="20" height="20"></a>&nbsp;
+    										</td>
+    										<td class="twitter" style="padding-bottom:9px;">
     											<a href="#" title="twitter"><img src="images/twitter.gif" alt="twitter" width="20" height="20"></a>								
     										</td>
     									</tr>
@@ -407,7 +461,7 @@
     					</tr><!-- row 6 -->
 
     					<tr>
-    						<td valign="top" bg="f3f3f3" style="font-family:Arial,Helvetica,sans-serif; font-size:9px; color:#777777; text-align:center; padding-top:20px; padding-bottom:30px;">
+    						<td valign="top" bg="f3f3f3" style="font-family:Arial,Helvetica,sans-serif; font-size:9px; color:#777777; text-align:center; padding-top:20px; padding-bottom:30px; line-height:12px;">
     							This email was sent to sample@email.com.<br>
     							Please add Sky from address.com to your address book or safe sender list.<br><br>
 
