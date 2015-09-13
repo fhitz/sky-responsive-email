@@ -1,4 +1,4 @@
-##responsive email desktop nd mobile
+##responsive email desktop nd mobile layouts
 
 *Desktop width 604px;
 *Mobile width 324px
