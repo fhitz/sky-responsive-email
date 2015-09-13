@@ -7,6 +7,126 @@
         	body {margin:0; padding: 0;	}
         	span.bold { font-weight: bold;}
 
+        	@media only screen and (max-width: 660px) {
+        		table.top td { color:#000000 !important; }
+        		table.top { width: 320px !important; }
+        		table.container { width: 320px !important;}
+        		td.headline img { display: none; }
+
+        		td.headline {
+        			
+        		}
+
+        		td.headertop { 
+        			padding-left: 0px !important;
+        			padding-right: 0px !important;
+        		}
+        		table.headertopleft { width: 80px !important; }
+        		table.headertopright { 
+        			width:  200px !important; 
+        			font-size: 10px !important;
+        			line-height: 12px;
+        		}
+
+        		.headertopright td br { display: block !important;}
+
+        		
+        		td.headerbottom { 
+        			background:#fff url(images/main_mob.png) no-repeat 0px 0px;
+        			height: 115px;
+        			cursor: pointer;
+        			padding-top: 220px !important;
+        			padding-left: 0 !important;
+        			padding-right: 0 !important;
+        		}
+
+        		table.headerbottomleft {
+        			width: 320px !important;
+        		}
+
+        		table.headerbottomright {
+        			padding: 0px 86px;
+        			padding-top: 7px !important;
+        		}
+
+        		.headerbottomleft h1 {
+        			font-size: 20px !important;
+        			text-align: center;
+        		}
+
+
+
+
+
+        		td.hellocontent img { display: none; }
+        		td.hellocontent {
+        			padding-left: 0px !important;
+        			padding-right: 0px !important;
+        			font-size: 12px !important;
+        		}
+
+
+
+
+
+        		td.boxsets {
+        			padding-left: 0px !important;
+        			padding-right: 0px !important;
+
+        		}
+
+
+        		td.boxsets h3 {
+        			font-size: 19px !important;
+        			text-align: center;
+        		}
+        		td.boxsets br { display: block !important;}
+
+        		table.box1 img { display: none; }
+        		table.box1 {
+        			background: url(images/true_mob.png) no-repeat 10px 0px;
+        			width: 320px;
+        			padding-top: 165px !important;
+    				padding-left: 20px !important;
+    				cursor: pointer;
+        		}
+        		table.box2 img { display: none; }
+        		table.box2 {
+        			background: url(images/modern_mob.png) no-repeat 10px 10px;
+        			width: 320px;
+        			padding-top: 175px !important;
+        			padding-left: 20px !important;
+        			cursor: pointer;
+        		}
+        		table.box3 img { display: none; }
+        		table.box3 {
+        			background: url(images/falling_mob.png) no-repeat 10px 10px;
+        			width: 320px;
+        			padding-top: 175px !important;
+    				cursor: pointer;
+    				padding-left: 20px !important;
+        		}
+
+
+
+        		td.footer {
+        			padding-left: 0px !important;
+        			padding-right: 0px !important;
+        		}
+
+        		table.skyid { 
+        			width: 320px !important;
+        			padding-left: 0px !important;
+        		 }
+        		table.account { width: 320px !important; }
+        		table.listings { width: 320px !important; }
+        		table.upgrades { width: 320px !important; }
+        		table.help { width: 320px !important; }
+        		table.social { width: 320px !important; }
+
+
+        	}
+
 
 
         </style>
@@ -16,9 +136,9 @@
     	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f3f3f3">
     		<tr>
     			<td valign="top" bgcolor="#000000" style="margin:0; padding=0; background-color:#000000;">
-    				<table width="604" align="center" border="0" cellspacing="0" cellpadding="0">
+    				<table class="top"width="604" align="center" border="0" cellspacing="0" cellpadding="0">
     					<tr>
-    						<td valign="top" class="top" bgcolor="#000000" style="padding-bottom:15px; padding-top:10px; margin:0; border:none; background-color:#000000; color:#a8abab; font-size:11px; font-family:Arial, Helvetica, sans-serif; line-height:15px; ">
+    						<td valign="top" bgcolor="#000000" style="padding-bottom:15px; padding-top:10px; margin:0; border:none; background-color:#000000; color:#a8abab; font-size:11px; font-family:Arial, Helvetica, sans-serif; line-height:15px; ">
 			    			 		[From] Relevant CM product/departmwent<br>
 			    			 		[Subject] We'll bring the Box Sets. And the snacks...
 			    			</td>
@@ -44,7 +164,7 @@
 	                                <table class="headertopright" align="right" width="300" cellspacing="0" cellpadding="0" border="0" style="font-size:11px; font-family:Arial,Helvetica,sans-serif; padding-top:10px; text-align:right; color:#646363;">
 	                                    <tr>
 	                                        <td>
-	                                             Get $75 to spend at M&S with The Family Bundle<br>
+	                                             Get $75 to spend at M&S <br style="display:none;"> with The Family Bundle<br>
 	                                             <a style="color:#646363;" href="#">View email in browser</a>&nbsp; | &nbsp; <a style="color:#646363;" href="#">Sign in to My Sky</a>
 	                                            
 	                                        </td>
@@ -86,10 +206,10 @@
     					<tr>
     						<td valign="top" class="hellocontent" bgcolor="#ffffff" style="padding:0px 20px 20px 20px; margin:0; border-left:2px solid #e6e3e1;
     						border-right:2px solid #e6e3e1; color:#8f8e8e;font-family:Arial,Helvetica,sans-serif; font-size:13px;">
-    						<br><br>
+    						<br><br class="break">
     							Hello Stefan<br><br>
 
-    							Discover the Box Sets everyone's talking about <span class="bold">The Family Bundle for just $6 extra a month.</span> Plus,
+    							Discover the Box Sets everyone's talking about with <span class="bold">The Family Bundle for just $6 extra a month.</span> Plus,
     							when you upgrade, you'll get a <span class="bold">$75 M&S voucher.</span><br><br>
 
     							Settle down for unmissable collections of the biggest shows around - all available at the touch of a button.
@@ -108,7 +228,7 @@
 
     					<tr>
     						<td valign="top" class="boxsets" bgcolor="#ffffff" style="padding:0px 20px 20px 20px; border-left:2px solid #e6e3e1; border-right:2px solid #e6e3e1;">
-    							<h3 style="font-family:Arial,Helvetica,sans-serif;font-size:20px; color:#b45faf; margin-top:0;">The biggest Box Sets keep on coming</h3>
+    							<h3 style="font-family:Arial,Helvetica,sans-serif;font-size:20px; color:#b45faf; margin-top:0;">The biggest Box Sets<br style="display:none;"> keep on coming</h3>
     							<table class="box1" align="left" width="180" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="padding:0;">
     								<tr>
     									<td>
